@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<database>
-    <element label="CIIC_User" max_length="40" name="x_sogd_ciic_ciic_user" type="collection"/>
-</database>

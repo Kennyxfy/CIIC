@@ -2,7 +2,7 @@
 <database>
     <element audit="true" extends="task" label="CIIC" max_length="40" name="x_sogd_ciic_ciic" sizeclass="5" type="collection">
         <element attributes="ref_contributions=user_show_incidents" default="javascript:incidentGetCaller()" dynamic_default_value="0d39d9105f220100a9ad2572f2b47796" label="联系者" max_length="32" name="caller_id" reference="sys_user" type="reference" use_dynamic_default="true"/>
-        <element label="子单" max_length="40" name="child_incidents" type="integer"/>
+        <element default="0" label="子单" max_length="40" name="child_incidents" type="integer"/>
         <element label="母单" max_length="32" name="parent_incident" reference="x_sogd_ciic_ciic" type="reference"/>
         <element attributes="edge_encryption_enabled=true" label="母单" max_length="40" name="u" reference="x_sogd_ciic_ciic" type="string"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="分类一" max_length="40" name="u_cat1" type="string">

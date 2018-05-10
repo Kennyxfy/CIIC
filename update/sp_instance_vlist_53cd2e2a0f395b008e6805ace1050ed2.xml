@@ -7,7 +7,8 @@
         <css/>
         <display_field>short_description</display_field>
         <field_list/>
-        <filter/>
+        <filter table="x_sogd_ciic_ciic">caller_idDYNAMIC90d1921e5f510100a9ad2572f2b477fe<item endquery="false" field="caller_id" goto="false" newquery="false" operator="DYNAMIC" or="false" value="90d1921e5f510100a9ad2572f2b477fe"/>
+        </filter>
         <glyph>bars</glyph>
         <id/>
         <maximum_entries>5</maximum_entries>
@@ -24,14 +25,14 @@
         <sys_created_by>Fayu.xu</sys_created_by>
         <sys_created_on>2018-05-04 05:19:02</sys_created_on>
         <sys_id>53cd2e2a0f395b008e6805ace1050ed2</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name/>
         <sys_package display_value="CIIC" source="x_sogd_ciic">8544829a0fbd1b008e6805ace1050eba</sys_package>
         <sys_policy/>
         <sys_scope display_value="CIIC">8544829a0fbd1b008e6805ace1050eba</sys_scope>
         <sys_update_name>sp_instance_vlist_53cd2e2a0f395b008e6805ace1050ed2</sys_update_name>
-        <sys_updated_by>Fayu.xu</sys_updated_by>
-        <sys_updated_on>2018-05-04 05:32:17</sys_updated_on>
+        <sys_updated_by>fayu.xu</sys_updated_by>
+        <sys_updated_on>2018-05-10 13:20:10</sys_updated_on>
         <table>x_sogd_ciic_ciic</table>
         <title/>
         <url/>
