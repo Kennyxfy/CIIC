@@ -26,6 +26,8 @@
         <element>u_pending_reason</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
         <internal_type display_value="String">string</internal_type>
         <mandatory>false</mandatory>
         <max_length>40</max_length>
@@ -47,15 +49,15 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>Fayu.xu</sys_created_by>
         <sys_created_on>2018-05-03 09:23:42</sys_created_on>
-        <sys_id>653c9e5a0ffd1b008e6805ace1050e98</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_id>949817644f8a13005d7d121f9310c7f5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>等待原因</sys_name>
         <sys_package display_value="CIIC" source="x_sogd_ciic">8544829a0fbd1b008e6805ace1050eba</sys_package>
         <sys_policy/>
         <sys_scope display_value="CIIC">8544829a0fbd1b008e6805ace1050eba</sys_scope>
         <sys_update_name>sys_dictionary_x_sogd_ciic_ciic_u_pending_reason</sys_update_name>
-        <sys_updated_by>Fayu.xu</sys_updated_by>
-        <sys_updated_on>2018-05-03 09:23:43</sys_updated_on>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2018-05-10 13:33:47</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

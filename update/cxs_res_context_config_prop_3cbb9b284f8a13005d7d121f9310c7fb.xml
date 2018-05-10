@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="cxs_res_context_config_prop">
+    <cxs_res_context_config_prop action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <choices/>
+        <cxs_res_context_config display_value="knowledge">7cbb9b284f8a13005d7d121f9310c7f8</cxs_res_context_config>
+        <default_value/>
+        <description>A Condition to apply before searching. The condition must be an encoded query.</description>
+        <id>knowledge_sr.conditions</id>
+        <name>Condition</name>
+        <sys_class_name>cxs_res_context_config_prop</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-05-10 13:47:25</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>3cbb9b284f8a13005d7d121f9310c7fb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Condition</sys_name>
+        <sys_package display_value="CIIC" source="x_sogd_ciic">8544829a0fbd1b008e6805ace1050eba</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CIIC">8544829a0fbd1b008e6805ace1050eba</sys_scope>
+        <sys_update_name>cxs_res_context_config_prop_3cbb9b284f8a13005d7d121f9310c7fb</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-05-10 13:47:25</sys_updated_on>
+        <type>conditions</type>
+        <value/>
+    </cxs_res_context_config_prop>
+</record_update>

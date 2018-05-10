@@ -9,7 +9,7 @@
         <container_class_name/>
         <name>中智主页 - Container 2</name>
         <order>2</order>
-        <sp_page display_value="ciic_home">29cfc6620ff55b008e6805ace1050e06</sp_page>
+        <sp_page display_value="">29cfc6620ff55b008e6805ace1050e06</sp_page>
         <subheader>false</subheader>
         <sys_class_name>sp_container</sys_class_name>
         <sys_created_by>Fayu.xu</sys_created_by>

@@ -14,6 +14,7 @@
         <description><![CDATA[<p><span style="color: #808080; font-family: arial, helvetica, sans-serif; font-size: medium; white-space: pre-line;">提交您遇到的问题&#xff0c;事件成功记录并提交后&#xff0c;您可以随时查询进度。</span></p>]]></description>
         <entitlement_script/>
         <group/>
+        <hide_sp>false</hide_sp>
         <icon/>
         <ignore_price>true</ignore_price>
         <image/>
