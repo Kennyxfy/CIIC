@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="parent_incident" label="母单" language="en" table="x_sogd_ciic_ciic">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>parent_incident</element>
+            <help/>
+            <hint/>
+            <label>母单</label>
+            <language>en</language>
+            <name>x_sogd_ciic_ciic</name>
+            <plural>母单s</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>Fayu.xu</sys_created_by>
+            <sys_created_on>2018-05-04 02:43:31</sys_created_on>
+            <sys_id>193ac26e0fb55b008e6805ace1050e36</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>母单</sys_name>
+            <sys_package display_value="CIIC" source="x_sogd_ciic">8544829a0fbd1b008e6805ace1050eba</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="CIIC">8544829a0fbd1b008e6805ace1050eba</sys_scope>
+            <sys_update_name>sys_documentation_x_sogd_ciic_ciic_parent_incident_en</sys_update_name>
+            <sys_updated_by>Fayu.xu</sys_updated_by>
+            <sys_updated_on>2018-05-04 02:43:31</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

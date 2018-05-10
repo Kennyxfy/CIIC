@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sc_cat_item_category">
+    <sc_cat_item_category action="INSERT_OR_UPDATE">
+        <sc_cat_item display_value="中智开单">9d035a660ff55b008e6805ace1050ed3</sc_cat_item>
+        <sc_category display_value="Can I help You?">68e426e20f395b008e6805ace1050ebf</sc_category>
+        <sys_class_name>sc_cat_item_category</sys_class_name>
+        <sys_created_by>Fayu.xu</sys_created_by>
+        <sys_created_on>2018-05-04 04:42:50</sys_created_on>
+        <sys_id>0185eae20f395b008e6805ace1050ed9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Can I help You?.中智开单</sys_name>
+        <sys_package display_value="CIIC" source="x_sogd_ciic">8544829a0fbd1b008e6805ace1050eba</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CIIC">8544829a0fbd1b008e6805ace1050eba</sys_scope>
+        <sys_update_name>sc_cat_item_category_0185eae20f395b008e6805ace1050ed9</sys_update_name>
+        <sys_updated_by>Fayu.xu</sys_updated_by>
+        <sys_updated_on>2018-05-04 04:42:50</sys_updated_on>
+    </sc_cat_item_category>
+</record_update>

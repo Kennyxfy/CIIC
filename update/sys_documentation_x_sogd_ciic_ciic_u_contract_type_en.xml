@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="u_contract_type" label="工单来源" language="en" table="x_sogd_ciic_ciic">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_contract_type</element>
+            <help/>
+            <hint/>
+            <label>工单来源</label>
+            <language>en</language>
+            <name>x_sogd_ciic_ciic</name>
+            <plural>工单来源s</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>Fayu.xu</sys_created_by>
+            <sys_created_on>2018-05-03 09:19:45</sys_created_on>
+            <sys_id>6b4b5a5a0ffd1b008e6805ace1050e2d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>工单来源</sys_name>
+            <sys_package display_value="CIIC" source="x_sogd_ciic">8544829a0fbd1b008e6805ace1050eba</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="CIIC">8544829a0fbd1b008e6805ace1050eba</sys_scope>
+            <sys_update_name>sys_documentation_x_sogd_ciic_ciic_u_contract_type_en</sys_update_name>
+            <sys_updated_by>Fayu.xu</sys_updated_by>
+            <sys_updated_on>2018-05-03 09:19:45</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

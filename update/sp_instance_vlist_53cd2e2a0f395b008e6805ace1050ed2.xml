@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sp_instance_vlist">
+    <sp_instance_vlist action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <class_name/>
+        <color>primary</color>
+        <css/>
+        <display_field>short_description</display_field>
+        <field_list/>
+        <filter/>
+        <glyph>bars</glyph>
+        <id/>
+        <maximum_entries>5</maximum_entries>
+        <order>0</order>
+        <order_by/>
+        <order_direction>asc</order_direction>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">a25e666a0f395b008e6805ace1050ebd</sp_column>
+        <sp_page/>
+        <sp_widget display_value="Simple List">5b255672cb03020000f8d856634c9c28</sp_widget>
+        <sys_class_name>sp_instance_vlist</sys_class_name>
+        <sys_created_by>Fayu.xu</sys_created_by>
+        <sys_created_on>2018-05-04 05:19:02</sys_created_on>
+        <sys_id>53cd2e2a0f395b008e6805ace1050ed2</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="CIIC" source="x_sogd_ciic">8544829a0fbd1b008e6805ace1050eba</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CIIC">8544829a0fbd1b008e6805ace1050eba</sys_scope>
+        <sys_update_name>sp_instance_vlist_53cd2e2a0f395b008e6805ace1050ed2</sys_update_name>
+        <sys_updated_by>Fayu.xu</sys_updated_by>
+        <sys_updated_on>2018-05-04 05:32:17</sys_updated_on>
+        <table>x_sogd_ciic_ciic</table>
+        <title/>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"always_show": {
+		"value": "",
+		"displayValue": ""
+	},
+	"panel_body_height": {
+		"value": "",
+		"displayValue": ""
+	},
+	"image_field": {
+		"value": "",
+		"displayValue": ""
+	},
+	"secondary_fields": {
+		"value": "number,state,sys_updated_on",
+		"displayValue": "number,state,sys_updated_on"
+	},
+	"rounded_images": {
+		"value": "",
+		"displayValue": ""
+	},
+	"list_page": {
+		"value": "",
+		"displayValue": ""
+	},
+	"hide_footer": {
+		"value": "",
+		"displayValue": ""
+	},
+	"view": {
+		"value": "",
+		"displayValue": ""
+	}
+}]]></widget_parameters>
+    </sp_instance_vlist>
+    <sys_translated_text action="delete_multiple" query="documentkey=53cd2e2a0f395b008e6805ace1050ed2"/>
+</record_update>

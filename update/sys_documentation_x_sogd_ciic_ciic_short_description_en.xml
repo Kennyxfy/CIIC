@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="short_description" label="简述" language="en" table="x_sogd_ciic_ciic">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>short_description</element>
+            <help/>
+            <hint/>
+            <label>简述</label>
+            <language>en</language>
+            <name>x_sogd_ciic_ciic</name>
+            <plural>简述s</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>Fayu.xu</sys_created_by>
+            <sys_created_on>2018-05-03 08:52:05</sys_created_on>
+            <sys_id>aaf496960ffd1b008e6805ace1050e9e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>简述</sys_name>
+            <sys_package display_value="CIIC" source="x_sogd_ciic">8544829a0fbd1b008e6805ace1050eba</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="CIIC">8544829a0fbd1b008e6805ace1050eba</sys_scope>
+            <sys_update_name>sys_documentation_x_sogd_ciic_ciic_short_description_en</sys_update_name>
+            <sys_updated_by>Fayu.xu</sys_updated_by>
+            <sys_updated_on>2018-05-03 08:52:05</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

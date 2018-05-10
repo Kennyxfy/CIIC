@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_cat1" table="x_sogd_ciic_ciic" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_cat1</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>故障</label>
+            <language>en</language>
+            <name>x_sogd_ciic_ciic</name>
+            <sequence>0</sequence>
+            <sys_created_by>Fayu.xu</sys_created_by>
+            <sys_created_on>2018-05-03 09:27:41</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b31d1a1e0ffd1b008e6805ace1050e09</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Fayu.xu</sys_updated_by>
+            <sys_updated_on>2018-05-03 09:27:41</sys_updated_on>
+            <value>1</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_cat1</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>请求</label>
+            <language>en</language>
+            <name>x_sogd_ciic_ciic</name>
+            <sequence>1</sequence>
+            <sys_created_by>Fayu.xu</sys_created_by>
+            <sys_created_on>2018-05-03 09:27:41</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3b1d1a1e0ffd1b008e6805ace1050e0b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Fayu.xu</sys_updated_by>
+            <sys_updated_on>2018-05-03 09:27:41</sys_updated_on>
+            <value>2</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_cat1</element>
+            <name>x_sogd_ciic_ciic</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>Fayu.xu</sys_created_by>
+            <sys_created_on>2018-05-03 09:27:41</sys_created_on>
+            <sys_id>f31d1a1e0ffd1b008e6805ace1050e0b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_cat1</sys_name>
+            <sys_package display_value="CIIC" source="x_sogd_ciic">8544829a0fbd1b008e6805ace1050eba</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="CIIC">8544829a0fbd1b008e6805ace1050eba</sys_scope>
+            <sys_update_name>sys_choice_x_sogd_ciic_ciic_u_cat1</sys_update_name>
+            <sys_updated_by>Fayu.xu</sys_updated_by>
+            <sys_updated_on>2018-05-03 09:27:41</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

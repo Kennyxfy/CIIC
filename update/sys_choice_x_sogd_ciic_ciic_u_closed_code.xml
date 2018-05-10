@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_closed_code" table="x_sogd_ciic_ciic" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_closed_code</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>引导/培训/示范</label>
+            <language>en</language>
+            <name>x_sogd_ciic_ciic</name>
+            <sequence>0</sequence>
+            <sys_created_by>Fayu.xu</sys_created_by>
+            <sys_created_on>2018-05-03 09:03:51</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>7aa7dad60ffd1b008e6805ace1050ec2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Fayu.xu</sys_updated_by>
+            <sys_updated_on>2018-05-03 09:03:51</sys_updated_on>
+            <value>1</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_closed_code</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>应用重装</label>
+            <language>en</language>
+            <name>x_sogd_ciic_ciic</name>
+            <sequence>1</sequence>
+            <sys_created_by>Fayu.xu</sys_created_by>
+            <sys_created_on>2018-05-03 09:03:51</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>fea7dad60ffd1b008e6805ace1050ec4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Fayu.xu</sys_updated_by>
+            <sys_updated_on>2018-05-03 09:03:51</sys_updated_on>
+            <value>2</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_closed_code</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>应用重新配置</label>
+            <language>en</language>
+            <name>x_sogd_ciic_ciic</name>
+            <sequence>2</sequence>
+            <sys_created_by>Fayu.xu</sys_created_by>
+            <sys_created_on>2018-05-03 09:03:51</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b2a7dad60ffd1b008e6805ace1050ec7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Fayu.xu</sys_updated_by>
+            <sys_updated_on>2018-05-03 09:03:51</sys_updated_on>
+            <value>3</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_closed_code</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>自动恢复</label>
+            <language>en</language>
+            <name>x_sogd_ciic_ciic</name>
+            <sequence>3</sequence>
+            <sys_created_by>Fayu.xu</sys_created_by>
+            <sys_created_on>2018-05-03 09:03:51</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>76a7dad60ffd1b008e6805ace1050ec9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Fayu.xu</sys_updated_by>
+            <sys_updated_on>2018-05-03 09:03:51</sys_updated_on>
+            <value>4</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_closed_code</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>后端配置</label>
+            <language>en</language>
+            <name>x_sogd_ciic_ciic</name>
+            <sequence>4</sequence>
+            <sys_created_by>Fayu.xu</sys_created_by>
+            <sys_created_on>2018-05-03 09:03:51</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3aa7dad60ffd1b008e6805ace1050ecb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Fayu.xu</sys_updated_by>
+            <sys_updated_on>2018-05-03 09:03:51</sys_updated_on>
+            <value>5</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_closed_code</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>数据/系统同步</label>
+            <language>en</language>
+            <name>x_sogd_ciic_ciic</name>
+            <sequence>5</sequence>
+            <sys_created_by>Fayu.xu</sys_created_by>
+            <sys_created_on>2018-05-03 09:03:51</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>faa7dad60ffd1b008e6805ace1050ecd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Fayu.xu</sys_updated_by>
+            <sys_updated_on>2018-05-03 09:03:51</sys_updated_on>
+            <value>6</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_closed_code</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>服务/服务重启</label>
+            <language>en</language>
+            <name>x_sogd_ciic_ciic</name>
+            <sequence>6</sequence>
+            <sys_created_by>Fayu.xu</sys_created_by>
+            <sys_created_on>2018-05-03 09:03:51</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>bea7dad60ffd1b008e6805ace1050ecf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Fayu.xu</sys_updated_by>
+            <sys_updated_on>2018-05-03 09:03:51</sys_updated_on>
+            <value>7</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_closed_code</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>补丁升级/降级</label>
+            <language>en</language>
+            <name>x_sogd_ciic_ciic</name>
+            <sequence>7</sequence>
+            <sys_created_by>Fayu.xu</sys_created_by>
+            <sys_created_on>2018-05-03 09:03:52</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>72a7dad60ffd1b008e6805ace1050ed2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Fayu.xu</sys_updated_by>
+            <sys_updated_on>2018-05-03 09:03:52</sys_updated_on>
+            <value>8</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_closed_code</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>重设/开锁/禁用</label>
+            <language>en</language>
+            <name>x_sogd_ciic_ciic</name>
+            <sequence>8</sequence>
+            <sys_created_by>Fayu.xu</sys_created_by>
+            <sys_created_on>2018-05-03 09:03:52</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>faa7dad60ffd1b008e6805ace1050ee0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Fayu.xu</sys_updated_by>
+            <sys_updated_on>2018-05-03 09:03:52</sys_updated_on>
+            <value>9</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_closed_code</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>硬件/设备交换/修理</label>
+            <language>en</language>
+            <name>x_sogd_ciic_ciic</name>
+            <sequence>9</sequence>
+            <sys_created_by>Fayu.xu</sys_created_by>
+            <sys_created_on>2018-05-03 09:03:52</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>bea7dad60ffd1b008e6805ace1050ee2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Fayu.xu</sys_updated_by>
+            <sys_updated_on>2018-05-03 09:03:52</sys_updated_on>
+            <value>10</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_closed_code</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>第三方修复</label>
+            <language>en</language>
+            <name>x_sogd_ciic_ciic</name>
+            <sequence>10</sequence>
+            <sys_created_by>Fayu.xu</sys_created_by>
+            <sys_created_on>2018-05-03 09:03:52</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>72a7dad60ffd1b008e6805ace1050ee5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Fayu.xu</sys_updated_by>
+            <sys_updated_on>2018-05-03 09:03:52</sys_updated_on>
+            <value>11</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_closed_code</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>其他</label>
+            <language>en</language>
+            <name>x_sogd_ciic_ciic</name>
+            <sequence>11</sequence>
+            <sys_created_by>Fayu.xu</sys_created_by>
+            <sys_created_on>2018-05-03 09:03:52</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>36a7dad60ffd1b008e6805ace1050ee7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Fayu.xu</sys_updated_by>
+            <sys_updated_on>2018-05-03 09:03:52</sys_updated_on>
+            <value>12</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_closed_code</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>重连网线</label>
+            <language>en</language>
+            <name>x_sogd_ciic_ciic</name>
+            <sequence>12</sequence>
+            <sys_created_by>Fayu.xu</sys_created_by>
+            <sys_created_on>2018-05-03 09:03:52</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f6a7dad60ffd1b008e6805ace1050ee9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Fayu.xu</sys_updated_by>
+            <sys_updated_on>2018-05-03 09:03:52</sys_updated_on>
+            <value>13</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_closed_code</element>
+            <name>x_sogd_ciic_ciic</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>Fayu.xu</sys_created_by>
+            <sys_created_on>2018-05-03 09:03:51</sys_created_on>
+            <sys_id>baa7dad60ffd1b008e6805ace1050ec4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_closed_code</sys_name>
+            <sys_package display_value="CIIC" source="x_sogd_ciic">8544829a0fbd1b008e6805ace1050eba</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="CIIC">8544829a0fbd1b008e6805ace1050eba</sys_scope>
+            <sys_update_name>sys_choice_x_sogd_ciic_ciic_u_closed_code</sys_update_name>
+            <sys_updated_by>Fayu.xu</sys_updated_by>
+            <sys_updated_on>2018-05-03 09:03:51</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

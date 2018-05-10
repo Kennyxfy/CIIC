@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element audit="true" extends="task" label="CIIC" max_length="40" name="x_sogd_ciic_ciic" sizeclass="5" type="collection">
+        <element attributes="ref_contributions=user_show_incidents" default="javascript:incidentGetCaller()" dynamic_default_value="0d39d9105f220100a9ad2572f2b47796" label="联系者" max_length="32" name="caller_id" reference="sys_user" type="reference" use_dynamic_default="true"/>
+        <element label="子单" max_length="40" name="child_incidents" type="integer"/>
+        <element label="母单" max_length="32" name="parent_incident" reference="x_sogd_ciic_ciic" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="母单" max_length="40" name="u" reference="x_sogd_ciic_ciic" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="分类一" max_length="40" name="u_cat1" type="string">
+            <choice>
+                <element label="故障" sequence="0" value="1"/>
+                <element label="请求" sequence="1" value="2"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" dependent="u_cat1" dependent_on_field="u_cat1" label="分类二" max_length="40" name="u_cat2" type="string" use_dependent_field="true">
+            <choice>
+                <element dependent_value="1" label="标准软件故障" sequence="0" value="1"/>
+                <element dependent_value="1" label="标准硬件故障" sequence="1" value="2"/>
+                <element dependent_value="1" label="网络故障" sequence="2" value="3"/>
+                <element dependent_value="1" label="存储服务" sequence="3" value="4"/>
+                <element dependent_value="1" label="域账号登录问题" sequence="4" value="5"/>
+                <element dependent_value="1" label="内部通讯软件故障" sequence="5" value="6"/>
+                <element dependent_value="1" label="业务系统故障" sequence="6" value="7"/>
+                <element dependent_value="2" label="IMACD（安装、搬移、增加、变更、撤除/报废）" sequence="7" value="8"/>
+                <element dependent_value="2" label="账号管理" sequence="8" value="9"/>
+                <element dependent_value="2" label="会议支持" sequence="9" value="10"/>
+                <element dependent_value="2" label="安全与访问控制" sequence="10" value="11"/>
+                <element dependent_value="2" label="网页访问服务" sequence="11" value="12"/>
+                <element dependent_value="2" label="手机设备服务" sequence="12" value="13"/>
+                <element dependent_value="2" label="业务系统账号开通及安装" sequence="13" value="14"/>
+                <element dependent_value="2" label="业务系统配置纠正" sequence="14" value="15"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" dependent="u_cat2" dependent_on_field="u_cat2" label="分类三" max_length="40" name="u_cat3" type="string" use_dependent_field="true">
+            <choice>
+                <element dependent_value="1" label="操作系统故障" sequence="0" value="1"/>
+                <element dependent_value="1" label="驱动程序故障" sequence="1" value="2"/>
+                <element dependent_value="1" label="Microsoft Office故障" sequence="2" value="3"/>
+                <element dependent_value="1" label="Win RAR故障" sequence="3" value="4"/>
+                <element dependent_value="1" label="Acrobat故障" sequence="4" value="5"/>
+                <element dependent_value="1" label="Trend Micro故障" sequence="5" value="6"/>
+                <element dependent_value="1" label="公司应用系统故障（AF智翔通等）" sequence="6" value="7"/>
+                <element dependent_value="2" label="域控服务器故障" sequence="7" value="8"/>
+                <element dependent_value="2" label="邮件服务器故障" sequence="8" value="9"/>
+                <element dependent_value="2" label="财务系统服务器故障" sequence="9" value="10"/>
+                <element dependent_value="2" label="防病毒服务器故障" sequence="10" value="11"/>
+                <element dependent_value="2" label="即时通讯服务器故障" sequence="11" value="12"/>
+                <element dependent_value="2" label="AAA认证服务器故障" sequence="12" value="13"/>
+                <element dependent_value="2" label="文件服务器故障" sequence="13" value="14"/>
+                <element dependent_value="2" label="备份服务器故障" sequence="14" value="15"/>
+                <element dependent_value="2" label="上网行为控制服务器故障" sequence="15" value="16"/>
+                <element dependent_value="2" label="基础架构监控服务器故障" sequence="16" value="17"/>
+                <element dependent_value="2" label="视频监控服务器故障" sequence="17" value="18"/>
+                <element dependent_value="2" label="门禁服务器故障" sequence="18" value="19"/>
+                <element dependent_value="2" label="虚拟机服务器故障" sequence="19" value="20"/>
+                <element dependent_value="2" label="日志服务器故障" sequence="20" value="21"/>
+                <element dependent_value="2" label="台式机硬件故障" sequence="21" value="22"/>
+                <element dependent_value="2" label="笔记本硬件故障" sequence="22" value="23"/>
+                <element dependent_value="2" label="手机硬件故障" sequence="23" value="24"/>
+                <element dependent_value="2" label="打印机硬件故障" sequence="24" value="25"/>
+                <element dependent_value="2" label="电脑配件故障" sequence="25" value="26"/>
+                <element dependent_value="2" label="其它硬件故障" sequence="26" value="27"/>
+                <element dependent_value="3" label="外网连接故障" sequence="27" value="28"/>
+                <element dependent_value="3" label="内网连接故障" sequence="28" value="29"/>
+                <element dependent_value="3" label="无线AP故障" sequence="29" value="30"/>
+                <element dependent_value="3" label="VPN网络故障" sequence="30" value="31"/>
+                <element dependent_value="3" label="VPN程序和客户端故障" sequence="31" value="32"/>
+                <element dependent_value="3" label="VPN账户和权限问题" sequence="32" value="33"/>
+                <element dependent_value="3" label="网络设备故障" sequence="33" value="34"/>
+                <element dependent_value="4" label="SAN/NAS故障" sequence="34" value="35"/>
+                <element dependent_value="4" label="磁带库故障" sequence="35" value="36"/>
+                <element dependent_value="5" label="账号无法登陆" sequence="36" value="37"/>
+                <element dependent_value="6" label="Lync程序故障" sequence="37" value="38"/>
+                <element dependent_value="6" label="Lync服务器故障" sequence="38" value="39"/>
+                <element dependent_value="7" label="金蝶系统故障" sequence="39" value="40"/>
+                <element dependent_value="7" label="用友系统故障" sequence="40" value="41"/>
+                <element dependent_value="8" label="硬件类 包括台式电脑，笔记本，手机，打印/扫描设备及电脑配件" sequence="41" value="42"/>
+                <element dependent_value="8" label="软件类 包括MS-Excel MS-Word MS-PowerPoint MS-Visio Win RAR Acrobat TrendMicro 硬件驱动及其他非标准软件" sequence="42" value="43"/>
+                <element dependent_value="9" label="域账号管理" sequence="43" value="44"/>
+                <element dependent_value="9" label="Email账号管理" sequence="44" value="45"/>
+                <element dependent_value="10" label="视频会议" sequence="45" value="46"/>
+                <element dependent_value="10" label="网络会议" sequence="46" value="47"/>
+                <element dependent_value="11" label="防火墙与策略" sequence="47" value="48"/>
+                <element dependent_value="11" label="域管理" sequence="48" value="49"/>
+                <element dependent_value="11" label="电子邮件管理" sequence="49" value="50"/>
+                <element dependent_value="11" label="VPN/专线访问控制" sequence="50" value="51"/>
+                <element dependent_value="11" label="文件/存储访问控制" sequence="51" value="52"/>
+                <element dependent_value="11" label="病毒与入侵管理" sequence="52" value="53"/>
+                <element dependent_value="11" label="密码管理" sequence="53" value="54"/>
+                <element dependent_value="12" label="互联网访问控制" sequence="54" value="55"/>
+                <element dependent_value="12" label="无线访问控制" sequence="55" value="56"/>
+                <element dependent_value="13" label="手机邮箱设置" sequence="56" value="57"/>
+                <element dependent_value="14" label="金蝶账号开通及安装" sequence="57" value="58"/>
+                <element dependent_value="14" label="用友账号开通及安装" sequence="58" value="59"/>
+                <element dependent_value="15" label="金蝶系统配置纠正" sequence="59" value="60"/>
+                <element dependent_value="15" label="用友系统配置纠正" sequence="60" value="61"/>
+                <element dependent_value="15" label="虚机备份" sequence="61" value="62"/>
+                <element dependent_value="15" label="NBU备份" sequence="62" value="63"/>
+                <element dependent_value="2" label="扫描仪硬件故障" sequence="63" value="64"/>
+            </choice>
+        </element>
+        <element default="0" label="子单" max_length="40" name="u_child_incidents" read_only="true" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="知识库编号" max_length="40" name="u_ciickbnumber" read_only="true" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="关单摘要" max_length="40" name="u_closed_code" type="string">
+            <choice>
+                <element label="引导/培训/示范" sequence="0" value="1"/>
+                <element label="应用重装" sequence="1" value="2"/>
+                <element label="应用重新配置" sequence="2" value="3"/>
+                <element label="自动恢复" sequence="3" value="4"/>
+                <element label="后端配置" sequence="4" value="5"/>
+                <element label="数据/系统同步" sequence="5" value="6"/>
+                <element label="服务/服务重启" sequence="6" value="7"/>
+                <element label="补丁升级/降级" sequence="7" value="8"/>
+                <element label="重设/开锁/禁用" sequence="8" value="9"/>
+                <element label="硬件/设备交换/修理" sequence="9" value="10"/>
+                <element label="第三方修复" sequence="10" value="11"/>
+                <element label="其他" sequence="11" value="12"/>
+                <element label="重连网线" sequence="12" value="13"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="联系电话" max_length="40" name="u_contract_number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="工单来源" max_length="40" name="u_contract_type" type="string">
+            <choice>
+                <element label="邮件报单" sequence="0" value="1"/>
+                <element label="电话报单" sequence="1" value="2"/>
+                <element label="自助报单" sequence="2" value="3"/>
+                <element label="协助报单" sequence="3" value="4"/>
+                <element label="前来报单" sequence="4" value="5"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="等待原因" max_length="40" name="u_pending_reason" type="string">
+            <choice>
+                <element label="等待用户" sequence="0" value="1"/>
+                <element label="等待供应商" sequence="1" value="2"/>
+                <element label="等待备件" sequence="2" value="3"/>
+            </choice>
+        </element>
+    </element>
+</database>

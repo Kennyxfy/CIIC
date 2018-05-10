@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>Fayu.xu</sys_created_by>
+        <sys_created_on>2018-05-03 08:37:45</sys_created_on>
+        <sys_id>6cb15a160ffd1b008e6805ace1050e10</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_sogd_ciic_ciic.x_sogd_ciic.ciic_user</sys_name>
+        <sys_package display_value="CIIC" source="x_sogd_ciic">8544829a0fbd1b008e6805ace1050eba</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CIIC">8544829a0fbd1b008e6805ace1050eba</sys_scope>
+        <sys_security_acl display_value="x_sogd_ciic_ciic">20b15a160ffd1b008e6805ace1050e0e</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_6cb15a160ffd1b008e6805ace1050e10</sys_update_name>
+        <sys_updated_by>Fayu.xu</sys_updated_by>
+        <sys_updated_on>2018-05-03 08:37:45</sys_updated_on>
+        <sys_user_role display_value="x_sogd_ciic.ciic_user" name="x_sogd_ciic.ciic_user">18b15ed20ffd1b008e6805ace1050efd</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+</record_update>

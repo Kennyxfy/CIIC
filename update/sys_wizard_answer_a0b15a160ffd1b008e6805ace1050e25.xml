@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_wizard_answer">
+    <sys_wizard_answer action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <answer>CIIC</answer>
+        <button_label/>
+        <dependent_value/>
+        <element/>
+        <name>CIIC</name>
+        <next_question/>
+        <order>100</order>
+        <payload_name/>
+        <question display_value="Task" name="Task">acd18e64db100300d13efa9ebf9619d0</question>
+        <roles/>
+        <script/>
+        <sys_class_name>sys_wizard_answer</sys_class_name>
+        <sys_created_by>Fayu.xu</sys_created_by>
+        <sys_created_on>2018-05-03 08:37:45</sys_created_on>
+        <sys_id>a0b15a160ffd1b008e6805ace1050e25</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>CIIC</sys_name>
+        <sys_package display_value="CIIC" source="x_sogd_ciic">8544829a0fbd1b008e6805ace1050eba</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CIIC">8544829a0fbd1b008e6805ace1050eba</sys_scope>
+        <sys_update_name>sys_wizard_answer_a0b15a160ffd1b008e6805ace1050e25</sys_update_name>
+        <sys_updated_by>Fayu.xu</sys_updated_by>
+        <sys_updated_on>2018-05-03 08:37:45</sys_updated_on>
+        <table/>
+        <target_url>x_sogd_ciic_ciic.do</target_url>
+        <type>1</type>
+    </sys_wizard_answer>
+</record_update>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_db_object">
+    <sys_db_object action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <actions_access>true</actions_access>
+        <alter_access>true</alter_access>
+        <client_scripts_access>true</client_scripts_access>
+        <configuration_access>true</configuration_access>
+        <create_access>true</create_access>
+        <create_access_controls>true</create_access_controls>
+        <delete_access>true</delete_access>
+        <extension_model/>
+        <is_extendable>false</is_extendable>
+        <label>CIIC</label>
+        <live_feed_enabled>false</live_feed_enabled>
+        <name>x_sogd_ciic_ciic</name>
+        <number_ref display_value="CIIC">e0b15a160ffd1b008e6805ace1050e32</number_ref>
+        <provider_class/>
+        <read_access>true</read_access>
+        <super_class display_value="Task" name="task">2cd18e64db100300d13efa9ebf9619cf</super_class>
+        <sys_class_code/>
+        <sys_class_name>sys_db_object</sys_class_name>
+        <sys_class_path/>
+        <sys_created_by>Fayu.xu</sys_created_by>
+        <sys_created_on>2018-05-03 08:37:45</sys_created_on>
+        <sys_id>a17196160ffd1b008e6805ace1050ec3</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>CIIC</sys_name>
+        <sys_package display_value="CIIC" source="x_sogd_ciic">8544829a0fbd1b008e6805ace1050eba</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CIIC">8544829a0fbd1b008e6805ace1050eba</sys_scope>
+        <sys_update_name>sys_db_object_a17196160ffd1b008e6805ace1050ec3</sys_update_name>
+        <sys_updated_by>Fayu.xu</sys_updated_by>
+        <sys_updated_on>2018-05-04 05:42:37</sys_updated_on>
+        <update_access>true</update_access>
+        <user_role display_value="x_sogd_ciic.ciic_user" name="x_sogd_ciic.ciic_user">18b15ed20ffd1b008e6805ace1050efd</user_role>
+        <ws_access>true</ws_access>
+    </sys_db_object>
+</record_update>
